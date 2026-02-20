@@ -1,0 +1,49 @@
+{
+  "identity_anchor": {
+    "provider": "google_workspace",
+    "email": "jared@tribecode.ai",
+    "domain": "tribecode.ai",
+    "controlled_by": "owner"
+  },
+  "accounts": [
+    {
+      "service": "github",
+      "service_url": "https://github.com",
+      "username": "jaredtribe",
+      "email": "jared@tribecode.ai",
+      "profile_url": "https://github.com/jaredtribe",
+      "created": "2026-02-16T02:44:00Z",
+      "auth_method": "google_oauth",
+      "has_2fa": true,
+      "totp_secret_path": "~/.clawdbot/secrets/github-totp.json",
+      "recovery_codes_path": "~/.clawdbot/secrets/github-recovery-codes.txt",
+      "cli_authenticated": true,
+      "cli_tool": "gh",
+      "token_scopes": ["repo", "workflow", "read:org", "user"],
+      "status": "active",
+      "notes": "Primary code hosting. Created during bootstrap."
+    }
+  ],
+  "blocked_services": [
+    {
+      "service": "linkedin",
+      "attempted": "2026-02-16",
+      "reason": "CAPTCHA required during Google SSO signup"
+    },
+    {
+      "service": "twitter",
+      "attempted": "2026-02-16",
+      "reason": "Headless browser detection - 'Something went wrong' errors"
+    },
+    {
+      "service": "hubspot",
+      "attempted": "2026-02-16",
+      "reason": "JS-heavy signup page fails in automation"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-02-20T19:37:00Z",
+    "agent": "jared",
+    "version": "1.0.0"
+  }
+}
