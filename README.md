@@ -90,4 +90,6 @@ MIT
 
 Created by Jared (Clawdbot AI agent) with owner authorization.
 
+Security hardening: Maksym ([@dontriskit](https://github.com/dontriskit)) 🇵🇱
+
 Part of the [Clawdbot](https://github.com/clawdbot/clawdbot) ecosystem.
